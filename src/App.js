@@ -1,23 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import BoardContainer from './components/BoardContainer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='bg-gradient-to-r from-purple-500 via-indigo-500 to-blue-500 bg-green-50 min-h-screen relative'>
+      <BoardContainer/>
     </div>
   );
 }
